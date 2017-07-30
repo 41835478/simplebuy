@@ -1,0 +1,27 @@
+<view class="search-container">
+  <input type="text" bindinput="searchInputEvent" placeholder="输入文章名搜索"></input><icon bindtap="searchClickEvent"  type="search" size="20"/>
+</view>
+
+<scroll-view scroll-y="true" style=""
+  bindscrolltolower="scrollLowerEvent">
+
+
+    <view class="common-list" >
+       <block >
+        <view class="list-item" data-bid="" bindtap="toDetailPage">
+          <view class="index-list-item">
+            <view class="cover">
+              <image class="cover-img" src="/images/news/aa.png"></image>
+            </view>
+            <view class="content">
+              <view class="title">PHP项目开发实战</view>
+              <text class="desc">001/002/003</text>
+            </view>
+          </view>
+        </view>
+     </block>
+
+    </view>
+
+ 
+</scroll-view>

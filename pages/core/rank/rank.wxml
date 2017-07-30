@@ -1,0 +1,86 @@
+<view class="container">
+    <view class="glod">
+        <view class="v1">
+        <image class="i1" src="/images/my/sliver.png"/>
+            <view>张晓明</view>
+            <view>231</view>
+        </view>
+        <view class="v2"><image class="i2" src="/images/my/gold.png"/> <view>丁大街</view>
+            <view>191</view></view>
+        <view class="v3"><image class="i3" src="/images/my/bronze.png"/> <view>曹华华</view>
+            <view>101</view></view>
+    </view>
+    <view class="rank">
+        <view class="r_head">
+            <view class="s1">头像</view><view class="s2">昵称</view><view class="s3">分数</view>
+             <div class="list-item-right"></div>
+        </view>
+        <view class="r_body">
+         
+            <ul class="list">
+                <li class="list-item-top" data-id="button">
+                    <view class="s1"><image src="/images/my/h1.jpg"/></view>
+                       <view class="s2">张晓明</view>
+                       <view class="s3">231</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h2.jpg"/></view>
+                       <view class="s2">丁大杰</view>
+                       <view class="s3">191</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+                <li class="list-item">
+                    <view class="s1"><image src="/images/my/h3.jpg"/></view>
+                       <view class="s2">曹华华</view>
+                       <view class="s3">101</view>
+                    <div class="list-item-right"></div>
+                </li>
+               
+            </ul>
+        </view>
+    </view>
+
+</view>

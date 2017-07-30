@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="view_one_goods">
+    <view class="view_goods_img">
+  <image class="goods_img" src="http://img1.gtimg.com/20/2013/201371/20137125_980x1200_0.jpg"/>
+ </view>
+  <view class="view_goods_name">
+    <span class="goods_name">湖南高山黄桃 从枝头到舌尖的新鲜</span>
+ </view>
+  <view class="view_goods_desc">
+    <span class="goods_desc">质地坚硬 | 56人购买</span>
+ </view>
+  </view>
+  <view class="view_one_goods">
+    <view class="view_goods_img">
+  <image class="goods_img" src="http://img1.gtimg.com/20/2013/201371/20137125_980x1200_0.jpg"/>
+ </view>
+  <view class="view_goods_name">
+    <span class="goods_name">湖南高山黄桃 从枝头到舌尖的新鲜</span>
+ </view>
+  <view class="view_goods_desc">
+    <span class="goods_desc">质地坚硬 | 56人购买</span>
+ </view>
+  </view>
+  <view class="view_one_goods">
+    <view class="view_goods_img">
+  <image class="goods_img" src="http://img1.gtimg.com/20/2013/201371/20137125_980x1200_0.jpg"/>
+ </view>
+  <view class="view_goods_name">
+    <span class="goods_name">湖南高山黄桃 从枝头到舌尖的新鲜</span>
+ </view>
+  <view class="view_goods_desc">
+    <span class="goods_desc">质地坚硬 | 56人购买</span>
+ </view>
+  </view>
+  <view class="view_one_goods">
+    <view class="view_goods_img">
+  <image class="goods_img" src="http://img1.gtimg.com/20/2013/201371/20137125_980x1200_0.jpg"/>
+ </view>
+  <view class="view_goods_name">
+    <span class="goods_name">湖南高山黄桃 从枝头到舌尖的新鲜</span>
+ </view>
+  <view class="view_goods_desc">
+    <span class="goods_desc">质地坚硬 | 56人购买</span>
+ </view>
+  </view>
+  <view class="view_one_goods">
+    <view class="view_goods_img">
+  <image class="goods_img" src="http://img1.gtimg.com/20/2013/201371/20137125_980x1200_0.jpg"/>
+ </view>
+  <view class="view_goods_name">
+    <span class="goods_name">湖南高山黄桃 从枝头到舌尖的新鲜</span>
+ </view>
+  <view class="view_goods_desc">
+    <span class="goods_desc">质地坚硬 | 56人购买</span>
+ </view>
+  </view>
+  
+ 
+  
+</view>

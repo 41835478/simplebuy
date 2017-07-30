@@ -1,0 +1,15 @@
+<view class="container">
+   
+    <view class="cn">
+        <text class="text_cn">n.笔记本</text>
+    </view>
+    <view class="answer">
+      <input class="answer_input" placeholder="输入英文单词"/>
+    </view>
+    <view class="bt">
+       <button type="primary" size="default"> 下一个 </button>
+    </view>
+    <view class="progress">
+     <slider bindchange="slider4change" min="0" max="25" value="0" show-value/>
+    </view>
+</view>

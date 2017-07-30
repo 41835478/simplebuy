@@ -1,0 +1,38 @@
+<view class="container">
+   <view class="en">
+         <view class="en_left">
+            <view class="en1">
+             <text>textbook</text>
+            </view>
+            <view class="en2">
+             <text>[tekstbʊk]</text>
+            </view>
+             
+               
+         </view>
+         <view class="en_right">
+            <view><image class="icon_img" src="/images/my/plus.png"/></view>
+            <view><image class="icon_img" src="/images/my/del.png"/></view> 
+         </view>
+       
+    </view>
+    <view class="cn">
+        <text class="text_cn">n.笔记本</text>
+    </view>
+    <view class="sentence">
+      <view>
+      <text class="text_cn">I have a textbook</text>
+      </view>
+      <view>
+       <text class="text_cn">我有一本书！</text>
+      </view>
+     
+    </view>
+    <view class="bt">
+       <button class="bt_voice"> 发音 </button>
+       <button class="bt_next"> 下一个 </button>
+    </view>
+    <view class="progress">
+     <slider class="bottom_sli"bindchange="slider4change" min="0" max="25" value="0" show-value/>
+    </view>
+</view>

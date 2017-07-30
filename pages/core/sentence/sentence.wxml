@@ -1,0 +1,34 @@
+<view class="container">
+
+   <view class="en">
+         <view class="">
+            <view class="en1">
+             <text>go to school</text>
+            </view> 
+         </view>
+         <view class="">
+            <view><image class="icon_img" src="/images/my/plus.png"/></view>
+            <view><image class="icon_img" src="/images/my/del.png"/></view> 
+         </view>
+       
+    </view>
+    <view class="cn">
+        <text class="text_cn">去上学</text>
+    </view>
+    <view class="sentence">
+      <view>
+      <text class="text_cn">I go to school every day!</text>
+      </view>
+      <view>
+       <text class="text_cn">我每天都去上学！</text>
+      </view>
+     
+    </view>
+    <view class="bt">
+     
+      <button type="primary"  bindtap="primary"> 下一个 </button>
+    </view>
+    <view class="progress">
+     <slider class="bottom_sli"bindchange="slider4change" min="0" max="25" value="0" show-value/>
+    </view>
+</view>

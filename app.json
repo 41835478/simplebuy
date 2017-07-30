@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/list/list",
+     "pages/more/more"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#7acfa6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "SimpleBuy",
+    "backgroundColor": "#7acfa6", 
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7f848a",
+    "selectedColor": "#7acfa6",
+    "backgroundColor": "#f7f6fb",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "发现",
+      "iconPath": "images/index/index.png",
+      "selectedIconPath": "images/index/index@active.png"
+    }, {
+      "pagePath": "pages/order/list/list",
+      "text": "订单",
+      "iconPath": "images/index/news.png",
+      "selectedIconPath": "images/index/news@active.png"
+    }, {
+      "pagePath": "pages/more/more",
+      "text": "我",
+      "iconPath": "images/index/more.png",
+      "selectedIconPath": "images/index/more@active.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 15000
+  }
+}

@@ -1,0 +1,111 @@
+.container{
+  height: 1500rpx;
+}
+.top-tab{
+  width: 750rpx;
+  height: 100rpx;
+  background: #298DE5;
+  color: #8CCEFD;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  box-shadow: 0 2px 2px #bebebe;
+  margin: 0 0 8rpx 0;
+  z-index: 9999;
+}
+scroll-view{
+  margin-top:100rpx;
+}
+.toptab.active{
+  color: #ffffff;
+  border-bottom: solid 2px #ffffff;
+}
+
+.flex-wrp{
+  display: flex;
+}
+.flex-tab{
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.flex-item{
+  flex-grow: 1;
+  text-align: center;
+}
+.top-tab{
+  width: 750rpx;
+  height: 100rpx;
+  background: #298DE5;
+  color: #8CCEFD;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  box-shadow: 0 2px 2px #bebebe;
+  margin: 0 0 8rpx 0;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+/**/
+
+.logo {
+  text-align:center;
+  padding-top:50rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #AAA
+}
+.logo image {
+  width: 250rpx;
+  height: 250rpx;
+}
+
+
+
+/*header*/
+.header {
+  padding: 20rpx 30rpx;
+}
+.header text {
+  color: #A6A6A6;
+  font-size: 35rpx
+}
+
+/*index list*/
+.index-list-item {
+  background: #FFF;
+  padding: 15rpx 30rpx;
+  overflow: hidden;
+}
+.index-list-item:active {
+  background: #EEE;
+}
+.index-list-item .cover {
+  float: left;
+  width: 120rpx;
+  height: 160rpx;
+  overflow: hidden
+}
+.index-list-item .cover image.cover-img {
+  width: 120rpx;
+  height: 160rpx;
+}
+.index-list-item .content {
+  margin-left: 140rpx;
+}
+.index-list-item .title {
+  font-size: 35rpx;
+  display: inline-block;
+  height: 90rpx;
+  padding-top: 20rpx;
+  overflow: hidden;
+}
+.index-list-item .desc  {
+  display: block;
+  font-size: 30rpx;
+  padding-top: 10rpx;
+  color: #AAA;
+  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

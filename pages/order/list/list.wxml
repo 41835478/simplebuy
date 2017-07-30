@@ -1,0 +1,70 @@
+
+
+<view class="container">
+
+  <view style="margin: 10px 0">
+    <template is="zan-tab" data="{{tab: tab1, componentId: 'tab1'}}"></template>
+  </view>
+  
+   <view style="">
+    <view class='order_a'>
+      <text class="text_order_num">订单编号：EE34593454</text>
+      <text class="text_order_status">等待买家付款</text>
+    </view>
+    <view class='order_b'>
+      <view class='view_image'> 
+        <image class="" src="https://img.alicdn.com/bao/uploaded/i2/TB1W6nmSpXXXXaYaXXXXXXXXXXX_!!0-item_pic.jpg_500x500q70.jpg"/>
+      </view>
+      <view class="view_desc">
+        <view class="view_desc_up">
+          <text class="text_name">单双人空调被werwewwere</text>
+          <text class="text_money">￥119.00</text>
+        </view>
+        <view class="view_desc_down">
+          <text class="text_spec">白色 200*300</text>
+          <text class="text_num">x1</text>
+        </view>
+      </view>
+    </view>
+    <view class='order_c'></view>
+    <view class='order_d'></view>
+  </view>
+
+
+</view>
+
+
+<template name="zan-tab">
+  <view class="zan-tab">
+      <block wx:if="{{tab.scroll}}">
+        <scroll-view
+          class="zan-tab__bd zan-tab__bd--scroll {{ fixed ? 'zan-tab__bd--fixed' : '' }}"
+          scroll-x="true"
+          style="height: {{ tab.height ? tab.height + 'px' : 'auto' }}"
+        >
+          <template is="zan-tab-list" data="{{ tab, componentId }}"></template>
+        </scroll-view>
+      </block>
+      <block wx:else>
+        <view class="zan-tab__bd {{fixed ? 'zan-tab__bd--fixed' : ''}}">
+          <template is="zan-tab-list" data="{{ tab, componentId }}"></template>
+        </view>
+      </block>
+  </view>
+</template>
+<!--全部 代付款 待发货的选项-->
+<template name="zan-tab-list">
+  <view
+    wx:for="{{tab.list}}"
+    wx:key="id"
+    class="zan-tab__item {{tab.selectedId == item.id ? 'zan-tab__item--selected' : ''}}"
+    data-component-id="{{componentId}}"
+    data-item-id="{{item.id}}"
+    bindtap="_handleZanTabChange"
+  >
+
+
+    <view class="zan-tab__title">{{item.title}}</view>
+  </view>
+</template>
+

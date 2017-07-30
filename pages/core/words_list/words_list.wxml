@@ -1,0 +1,35 @@
+<view class="container">
+    <view  class="remind-box">
+    
+          <image src="/images/index/memory.jpg" class="slide-image" width="355" height="155"/> 
+  
+  </view>
+    <view>
+    <ul class="list">
+       <li class="list-item-top" data-id="button">
+        <div class="list-item-left">
+            <navigator url="/pages/core/unitwords/unitwords" hover-class="navigator-hover">初二上册第二单元</navigator>
+        </div>
+        <div class="list-item-right"></div>
+       </li>
+       <li class="list-item" data-id="button">
+        <div class="list-item-left">
+            <navigator url="" hover-class="navigator-hover">复习单词</navigator>
+        </div>
+        <div class="list-item-right"></div>
+       </li>
+       <li class="list-item" data-id="button">
+        <div class="list-item-left">
+            <navigator url="" hover-class="navigator-hover">错误单词</navigator>
+        </div>
+        <div class="list-item-right"></div>
+       </li>
+       <li class="list-item" data-id="button">
+        <div class="list-item-left">
+            <navigator url="" hover-class="navigator-hover">课外单词</navigator>
+        </div>
+        <div class="list-item-right"></div>
+       </li>
+    </ul>
+    </view>
+</view>

@@ -1,0 +1,148 @@
+
+page{
+    background: #eaeaea;font-family: Arial,'Microsoft Yahei';
+}
+
+.top-tab{
+  height:86rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #d9d9d9;
+  color: #7b7b7b;
+  font-size: 15px;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+}
+.top-tab .top-tab-item{
+  flex-grow: 1;
+  height: 84rpx;
+  line-height: 84rpx;
+  text-align: center;
+}
+.top-tab-item.active {
+  border-bottom:2px solid #ff2600;
+  color: #ff2600;
+  font-size: 17px;
+}
+
+.swiper{
+  display: block; 
+  width: 100%; 
+  overflow: hidden;
+  margin: 0;
+  border: 0;
+  
+  margin-top: 86rpx;
+  background-color: #eaeaea;
+}
+
+
+.scrollView{
+  height: 100%;
+  background-color: #eaeaea;
+}
+.tz_list{
+  background: #fff;
+  padding: 25rpx;
+  margin-bottom: 16rpx;
+}
+.tz_bt{
+  font-size: 36rpx;
+}
+.tz_nr{
+  font-size: 28rpx;
+  color: #696969;
+  line-height: 46rpx;
+  margin-top: 20rpx;
+}
+.tz_ck{ 
+  position: relative;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #000;
+  border-top: 1px solid #eaeaea;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+.tz_ck icon {
+    width: 18rpx;
+    height: 18rpx;
+    display: inline-block;
+    border-top: solid 1px #ff3e3f;
+    border-right: solid 1px #ff3e3f;
+    
+    position: absolute;
+    right: 10px;
+    top: 32rpx;
+}
+
+
+.message_list{
+  background-color: #eaeaea;
+ 
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:25rpx 25rpx 12rpx 25rpx;
+  background-color: #fff;
+
+
+}
+.item-left{
+    display:table-cell;
+    text-align: center; 
+}
+
+.image{
+
+    width: 108rpx; 
+    height: 108rpx;
+    border-radius: 10rpx; 
+    background-color: #eeeeee;
+}
+
+.item-middle{
+    flex: 1;
+    margin-left: 20rpx;
+    overflow: hidden;
+}
+.title{
+  color: #000000;
+  line-height: 10rpx;
+  font-size: 32rpx;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.message{
+  color: #808080;
+  line-height: 10rpx;
+  font-size: 26rpx;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.item_right{
+ 
+    overflow: hidden; 
+}
+.time{
+    color:#808080;
+    font-size: 26rpx;
+}
+
+.line{
+    height: 1px;
+    width:100%;
+    background-color: #eaeaea;
+}
+
+.tiem{ width: 100%; text-align: center; padding: 20rpx 0rpx; font-size: 26rpx; color: #666;}

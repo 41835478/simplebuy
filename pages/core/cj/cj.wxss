@@ -1,0 +1,73 @@
+.container {
+    position:absolute;
+    background: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.cn,.bt,.progress,.answer{
+    margin-left: 25rpx;
+}
+.cn{
+    height: 40%;
+    margin-top: 25rpx;
+}
+.answer{
+    height:30%;
+}
+.bt{
+    height: 20%;
+    margin-right: 25rpx;
+    margin-top:40rpx;
+}
+.progress{
+    height: 10%;
+}
+.text_words{
+    font-weight: 900;
+    font-size: 50rpx;
+    display: block;
+}
+.text_exp{
+    font-weight: 100;
+    font-size: 50rpx;
+    display: block;
+}
+.w_add{
+    float:right;
+    margin-left: 5rpx;
+    margin-right: 5rpx;
+}
+.w_del{
+    float:right;
+     margin-left: 5rpx;
+    margin-right: 5rpx;
+}
+.text_cn{
+    font-size:40rpx;
+}
+
+.sen_en{
+    font-weight: 100;
+    font-size: 40rpx;
+    display: block;
+    
+}
+.sen_cn{
+    font-weight: 100;
+    font-size: 40rpx;
+    display: block;
+    margin-top:10rpx;
+}
+
+.answer_input{
+    height:50rpx;
+    border-bottom:1rpx solid #C0C0C0;
+    border-left:0;
+    border-right: 0;
+    border-top: 0;
+}
+
+                                
+

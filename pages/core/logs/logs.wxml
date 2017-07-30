@@ -1,0 +1,80 @@
+<view class="top-tab">
+  <view class="top-tab-item {{currentTopItem==idx ? 'active' : ''}}" wx:key="item.id" wx:for="{{topTabItems}}" wx:for-index="idx" data-idx="{{idx}}" bindtap="switchTab">
+    {{item}}
+  </view>
+</view>
+<swiper class="swiper" current="{{currentTopItem}}" bindchange="bindChange" duration="300" style="height:{{swiperHeight}}px" >
+
+  <!--全部-->
+  <swiper-item>
+    <scroll-view class="scrollView" scroll-y="true" bindscrolltolower="loadMoreData" >
+      <view class="gg_gao" ></view>
+
+      <block wx:for="{{tongzhi}}" wx:for-item="item"wx:key="item.id">
+      <navigator url="{{item.url}}" >
+      <view class="tiem">
+      <text>{{item.time}}</text>
+      </view>
+      <view class="tz_list">
+      <view class="tz_bt">{{item.biaoti}}</view>
+      <view class="tz_nr">{{item.neirong}}</view>
+      <view class="tz_ck">查看详情<icon></icon></view>
+      </view>
+      </navigator> 
+      </block>
+ 
+   
+
+
+      
+    </scroll-view>
+  </swiper-item>
+
+  <!--视频-->
+  <swiper-item>
+    <scroll-view class="scrollView" scroll-y="true" bindscrolltolower="loadMoreData" bindscrolltoupper="refreshData" >
+      <view class="gg_gao"></view>
+      <view class="message_list">
+     <block wx:for="{{messages}}" wx:key="item.id">
+        <navigator url="/../..">
+          <view class="item" >
+             <view class="item-left">
+                  <image src="{{item.url}}" class="image"/>
+             </view>
+             <view class="item-middle">
+                  <view>
+                       <text class="title">{{item.title}}</text>
+                  </view>
+                  <view>
+                      <text class="message">{{item.message}}</text>
+                  </view>
+            </view>
+            <view class="item_right">
+                <view><text class="time">{{item.time}}</text></view>
+              
+            </view>
+         </view>
+         <view  class="line"></view>
+       </navigator>
+
+       
+    </block>
+  </view>
+
+      <view class="gg_gao"></view>
+    </scroll-view>
+  </swiper-item>
+
+  <!--图片-->
+  <swiper-item>
+    <scroll-view class="scrollView" scroll-y="true" bindscrolltolower="loadMoreData" bindscrolltoupper="refreshData">
+      <view class="gg_gao"></view>  
+      
+      <view class="gg_gao"></view>
+    </scroll-view>
+  </swiper-item>
+
+
+ 
+
+</swiper>
